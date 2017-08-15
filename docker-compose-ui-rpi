@@ -1,0 +1,1 @@
+docker run --name docker-compose-ui-rpi -p 5000:5000 -v /volumes/docker-compose-ui:/opt/docker-compose-projects -v /var/run/docker.sock:/var/run/docker.sock -d lowet84/docker-compose-ui-rpi
